@@ -1,0 +1,79 @@
+[
+  {
+    "model": "shop.product",
+    "pk": 1,
+    "fields": {
+      "title": "Smart Watch",
+      "price": 1200,
+      "discount_price": 200,
+      "description": "A smartwatch is a portable wearable computer that resembles a wristwatch, operating via a touchscreen and relying on mobile apps from a connected smartphone for core functions.",
+      "image": "https://cdn.thewirecutter.com/wp-content/media/2025/10/BEST-SMARTWATCH-ANDROID-PHONES-04020.jpg?width=2048&quality=60&crop=2048:1365&auto=webp"
+    }
+  },
+  {
+    "model": "shop.product",
+    "pk": 2,
+    "fields": {
+      "title": "Iphone 12",
+      "price": 800,
+      "discount_price": 750,
+      "description": "The iPhone is a line of smartphones developed and marketed by Apple that run iOS, the company's own mobile operating system.",
+      "image": "https://cdn.thewirecutter.com/wp-content/media/2026/03/BG-IPHONE-5323.jpg?width=2048&quality=60&crop=2048:1365&auto=webp"
+    }
+  },
+  {
+    "model": "shop.product",
+    "pk": 3,
+    "fields": {
+      "title": "JBL Speaker",
+      "price": 200,
+      "discount_price": 110,
+      "description": "Shop at Best Buy for JBL Bluetooth and wireless speakers. Take your music with you with the JBL Flip, JBL Charge and more.",
+      "image": "https://global.jbl.com/on/demandware.static/-/Sites-siteCatalog_JB_GBL/default/dw4f4d4950/navigation_images/Fly-In_All_Speakers.jpg"
+    }
+  },
+  {
+    "model": "shop.product",
+    "pk": 4,
+    "fields": {
+      "title": "Earpods",
+      "price": 350,
+      "discount_price": 200,
+      "description": "This comfortable pair stays in place and sounds great. The hands-free voice control works with any operating system, but the battery life is shorter than we’d prefer.",
+      "image": "https://cdn.thewirecutter.com/wp-content/media/2025/01/BEST-WIRELESS-BLUETOOTH-EARBUDS-2048px-5980.jpg?width=2048&quality=60&crop=2048:1365&auto=webp"
+    }
+  },
+  {
+    "model": "shop.product",
+    "pk": 5,
+    "fields": {
+      "title": "Laptop",
+      "price": 2000,
+      "discount_price": 1500,
+      "description": "The Lenovo Yoga 7i 2-in-1 (14″ Intel) has the best combination of what makes a laptop great: fast performance, terrific battery life, a spacious OLED touchscreen, a comfortable keyboard, and a reliable trackpad, all for a reasonable price.",
+      "image": "https://cdn.thewirecutter.com/wp-content/media/2025/10/BEST-CHEAP-GAMING-LAPTOPS-9192.jpg?width=2048&quality=60&crop=2048:1365&auto=webp"
+    }
+  },
+  {
+    "model": "shop.product",
+    "pk": 6,
+    "fields": {
+      "title": "Bike",
+      "price": 500,
+      "discount_price": 499,
+      "description": "From its first iteration, the Crumble was designed as a true all‑round trail bike. Not tuned for a single discipline, but balanced carefully between efficiency, control and confidence. It is a bike that adapts easily to different riding styles, different builds and different expectations, without ev",
+      "image": "https://sour.bike/wp-content/uploads/2026/04/B0A6661-2048x1365.jpg"
+    }
+  },
+  {
+    "model": "shop.product",
+    "pk": 7,
+    "fields": {
+      "title": "GFX 100RF Body Silver Fujifilm GFX",
+      "price": 2500,
+      "discount_price": 2000,
+      "description": "With the GFX100RF, Fujifilm introduces its first premium compact camera in the GFX lineup. It pairs a 102-megapixel medium format sensor with a fixed 35mm F4 lens (equivalent to 28mm). This innovative model brings the renowned image quality of the GFX system into a more compact form. Weighing just 7",
+      "image": "https://www.fiftypointeight.shop/site/wp-content/uploads/2025/03/fujifilm-gfx-gfx-100-rf-body-black-508-shop-66154-2048x1365.jpg"
+    }
+  }
+]

@@ -1,0 +1,27 @@
+{% extends 'shop/base.html' %} 
+
+{% block content %}
+<div class="card mx-auto mt-5" style="width: 40rem;">
+    <img class="card-img-top" src=" {{ item.image }}">
+        <div class="card-body">
+            <p class="card-text">Title: {{ item.title }}</p>
+            <p class="card-text">{{ item.description }}</p>
+            <div style="justify-content: space-between; display: flex;">
+                <div>Price: $<span style="text-decoration: line-through;">{{ item.price }}</span></div>
+                <div>Discounted Price: ${{ item.discount_price }}</div>
+                {% comment %} <div>Added By: {{ item.user.username | title }}</div> {% endcomment %}
+            </div>
+            <div>
+            <button type="button" class="btn btn-primary mt-3">Buy Now</button>
+            <a href="{% url 'shop:add_to_cart' item.pk %}" onclick="myFunction()" class="btn btn-success mt-3 ms-3">Add to Cart 🛒</a> 
+            
+        </div>
+    </div>
+</div>
+
+<script>
+    function myFunction() {
+        alert("Item added to cart!");
+    }
+</script>
+{% endblock content %}

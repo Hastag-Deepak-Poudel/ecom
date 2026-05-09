@@ -1,0 +1,39 @@
+{% extends 'shop/base.html' %}
+
+{% block content %}
+<div class="container">
+    <div class="row">
+        {% for object in object_list %}
+        <div class="col-md-4 mt-5">
+            <div class="card mb-4 border shadow p-3">
+
+                <a href="{% url 'shop:show_details' object.pk %}">
+                    <img class="card-img-top" src="{{ search_item.image }}" alt="{{ search_item.title }}">
+                </a>
+
+                <div class="card-body">
+                    <h5 class="card-title">{{ search_item.title }}</h5>
+
+                    <div class="d-flex ">
+                        <a href="{% url 'shop:update_list' object.pk %}"
+                           class="btn btn-primary">
+                            Update
+                        </a>
+
+                        <a href="{% url 'shop:delete_confirm' object.pk %}"
+                           class="btn btn-danger ms-3">
+                            Delete
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+</div>
+{% endblock content %}
+
+
+
+
